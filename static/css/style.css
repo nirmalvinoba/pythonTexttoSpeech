@@ -1,0 +1,38 @@
+.image img{
+    position: relative;
+}
+h1{
+    position: absolute;
+    top: 40%;
+    left: 39%;
+    font-size: 50px;
+    color: white;
+}
+textarea{
+    position: absolute;
+    top: 60%;
+    left: 43.5%;
+    padding: 8.5px ;
+    
+}
+button{
+    position: absolute;
+    top: 70%;
+    left: 46.5%;
+    padding: 6.5px;
+
+}
+label{
+    position: absolute;
+    top: 35.5%;
+    left: 1.2%;
+    font-size: 26.5px;
+    color: white;
+    
+}
+select{
+    position: absolute;
+    top: 40.5%;
+    left: 1.2%;
+    padding: 4.5;
+}

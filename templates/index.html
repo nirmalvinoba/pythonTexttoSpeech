@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Speech</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <div class="image">
+        <img src="../static/Images/ConvertTexttoSpeechUsingPython20221025115334.jpg" width="100%" alt="">
+    </div>
+    <h1>Text to Speech</h1>
+    <form method="POST" action="/text-to-speech" class="formform">
+        <label>Language :  </label>
+        <select name="lan" id="">
+            <option value="en">English</option>
+            <option value="fr">French</option>
+            <option value="ta">Tamil</option>
+        </select><br>
+        <textarea name="text" placeholder="Enter Text..."></textarea>
+        <br>
+        <button type="submit">Get Voice</button>
+    </form>
+
+</body>
+</html>
